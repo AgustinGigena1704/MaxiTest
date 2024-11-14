@@ -1,0 +1,183 @@
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Venta y Alquiler de Viviendas en Buenos Aires
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-blue-600 p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <a class="text-white text-2xl font-bold" href="#">
+     Viviendas BA
+    </a>
+    <ul class="flex space-x-4">
+     <li>
+      <a class="text-white" href="#">
+       Inicio
+      </a>
+     </li>
+     <li>
+      <a class="text-white" href="#">
+       Propiedades
+      </a>
+     </li>
+     <li>
+      <a class="text-white" href="#">
+       Nosotros
+      </a>
+     </li>
+     <li>
+      <a class="text-white" href="#">
+       Contacto
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-96" style="background-image: url('https://placehold.co/1920x600?text=Imagen+de+Buenos+Aires+con+edificios+modernos+y+clásicos');">
+   <div class="bg-black bg-opacity-50 h-full flex items-center justify-center">
+    <div class="text-center text-white">
+     <h1 class="text-4xl font-bold">
+      Encuentra tu hogar ideal en Buenos Aires
+     </h1>
+     <p class="mt-4 text-lg">
+      Venta y alquiler de propiedades en las mejores zonas de la ciudad
+     </p>
+     <a class="mt-6 inline-block bg-blue-600 text-white py-2 px-4 rounded" href="#">
+      Ver Propiedades
+     </a>
+    </div>
+   </div>
+  </section>
+  <!-- Featured Properties -->
+  <section class="container mx-auto py-12">
+   <h2 class="text-3xl font-bold text-center mb-8">
+    Propiedades Destacadas
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- Property 1 -->
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+     <img alt="Imagen de una casa moderna con jardín" class="w-full h-48 object-cover" src="https://placehold.co/400x300?text=Imagen+de+una+casa+moderna+con+jardín"/>
+     <div class="p-4">
+      <h3 class="text-xl font-bold">
+       Casa Moderna en Palermo
+      </h3>
+      <p class="mt-2 text-gray-600">
+       3 habitaciones, 2 baños, jardín
+      </p>
+      <p class="mt-2 text-blue-600 font-bold">
+       $350,000
+      </p>
+     </div>
+    </div>
+    <!-- Property 2 -->
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+     <img alt="Imagen de un departamento con vista al río" class="w-full h-48 object-cover" src="https://placehold.co/400x300?text=Imagen+de+un+departamento+con+vista+al+rio"/>
+     <div class="p-4">
+      <h3 class="text-xl font-bold">
+       Departamento con Vista al Río
+      </h3>
+      <p class="mt-2 text-gray-600">
+       2 habitaciones, 1 baño, balcón
+      </p>
+      <p class="mt-2 text-blue-600 font-bold">
+       $250,000
+      </p>
+     </div>
+    </div>
+    <!-- Property 3 -->
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+     <img alt="Imagen de un loft moderno en el centro" class="w-full h-48 object-cover" src="https://placehold.co/400x300?text=Imagen+de+un+loft+moderno+en+el+centro"/>
+     <div class="p-4">
+      <h3 class="text-xl font-bold">
+       Loft Moderno en el Centro
+      </h3>
+      <p class="mt-2 text-gray-600">
+       1 habitación, 1 baño, cocina equipada
+      </p>
+      <p class="mt-2 text-blue-600 font-bold">
+       $200,000
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- About Us -->
+  <section class="bg-gray-200 py-12">
+   <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-8">
+     Sobre Nosotros
+    </h2>
+    <p class="text-lg text-gray-700">
+     Somos una empresa dedicada a la venta y alquiler de propiedades en Buenos Aires. Con más de 20 años de experiencia, ofrecemos un servicio personalizado para ayudarte a encontrar la vivienda de tus sueños.
+    </p>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="container mx-auto py-12">
+   <h2 class="text-3xl font-bold text-center mb-8">
+    Contáctanos
+   </h2>
+   <div class="flex justify-center">
+    <form class="w-full max-w-lg bg-white shadow-lg rounded-lg p-8">
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="name">
+       Nombre
+      </label>
+      <input class="w-full px-3 py-2 border rounded" id="name" placeholder="Tu nombre" type="text"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="email">
+       Email
+      </label>
+      <input class="w-full px-3 py-2 border rounded" id="email" placeholder="Tu email" type="email"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="message">
+       Mensaje
+      </label>
+      <textarea class="w-full px-3 py-2 border rounded" id="message" placeholder="Tu mensaje" rows="4"></textarea>
+     </div>
+     <button class="bg-blue-600 text-white py-2 px-4 rounded" type="submit">
+      Enviar
+     </button>
+    </form>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-blue-600 py-4">
+   <div class="container mx-auto text-center text-white">
+    <p>
+     © 2023 Viviendas BA. Todos los derechos reservados.
+    </p>
+    <div class="mt-2">
+     <a class="text-white mx-2" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="text-white mx-2" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="text-white mx-2" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
